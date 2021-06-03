@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="desktop.css" media="(min-width: 900px)">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Podcast Landing Page</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <span class="nav-logo"></span>
+            <div class="nav-burguer">
+                <input id="burger" type="checkbox" class="custom-checkbox" />
+                <label for="burger" class="label-burger">
+                    <div class="container-burger">
+                        <div class="linea linea-top"></div>
+                        <div class="linea linea-med"></div>
+                        <div class="linea linea-low"></div>
+                    </div>
+                </label>
+                <div class="toggle-menu">
+                    <ul class="menu">
+                        <li><a href="#episodios">EPISODIOS</a></li>
+                        <li><a href="#nosotros">NOSOTROS</a></li>
+                        <li><a href="#entrevistas">ENTREVISTAS</a></li>
+                        <li><a href="#topicos">TÓPICOS</a></li>
+                    </ul>
+                </div>
+            </div>
+             
+        </nav>
+        
+        <div class="header--title-container">
+            <h1>Hello <span>world</span> pale blue dot.</h1>
+            <p>Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+            <a href="#nosotros" class="header-button">conocé más</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="main-podcast-container" >
+
+            <div class="podcast-container-background"></div>
+            <h1 id="episodios">Episodios</h1>
+            <div class="podcast-container-items">
+                <div class="item item1">
+                    <iframe src="https://open.spotify.com/embed/episode/6M8uRYkP2zWkijyz98OUNI" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+                <div class="item item2">
+                    <iframe src="https://open.spotify.com/embed/episode/5Aq5Pc8UZckXjfjUO1xlXR" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+                <div class="item item3">
+                    <iframe src="https://open.spotify.com/embed/episode/2xiQLWMaYg5JLKbCSw4BsL" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+                <div class="item item4">
+                    <iframe src="https://open.spotify.com/embed/episode/0ySKCnLvkSFrEJYpZILZ6c" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </div>   
+
+        </section>
+
+        <section class="main-about-us-container" id="nosotros">
+            <div class="phone"></div>
+            <div class="about-us-container-title">
+                <h2>De dónde venimos</h2>
+                <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. <br><br>
+                Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+            </div>
+        </section>
+
+        <section class="main-invitados-estelares" id="entrevistas">
+            <h2>Invitadas/os estelares</h2> 
+            <!-- Imagenes de invitadas estelares-->
+            <div class="imagenes-contendor">
+                <div class="imagen imagen1"></div>
+                <div class="imagen imagen2"></div>
+                <div class="imagen imagen3"></div>
+                <div class="imagen imagen4"></div>
+                <div class="imagen imagen5"></div>
+                <div class="imagen imagen6"></div>
+            </div>
+        </section>
+
+
+        <section class="main-nuestros-temas" id="topicos">
+            <h2>Algunos de nuestros temas</h2>
+            <div class="nuestros-temas-cards">
+                <div class="card">
+                    <span class="icon1"></span>
+                    <p>Trabajo remoto</p>
+                </div>
+                <div class="card">
+                    <span class="icon2"></span>
+                    <p>Repensando la programación</p>
+                </div>
+                <div class="card">
+                    <span class="icon3"></span>
+                    <p>Bases del código</p>
+                </div>
+                <div class="card">
+                    <span class="icon4"></span>
+                    <p>Seguridad informática</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="main-novedades">
+            <h2>¿Querés las últimas novedades?</h2>
+            <a href="#episodios">ESCUCHÁ LOS EPISODIOS</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2019— Hello blue pale dot</p>
+        <div>
+            
+            <a href="https://www.spotify.com/ec/" target="_blank"><i class="fab fa-spotify"></i></a>
+    
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+    
+            <a href="https://es-la.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+    
+            <a href="https://web.telegram.org" target="_blank"><i class="fab fa-telegram"></i></a>
+    
+            
+        </div>
+    </footer>
+</body>
+</html>

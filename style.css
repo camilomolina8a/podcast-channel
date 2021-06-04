@@ -453,7 +453,7 @@ main {
 }
 .main-novedades a {
     position: absolute;
-    width: 100%;
+    width: 90%;
     max-width: 345px;
     height: 48px;
     margin-top: 210px;

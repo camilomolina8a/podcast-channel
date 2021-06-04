@@ -51,6 +51,7 @@ nav .nav-logo{
     line-height: 5.6rem;
     margin-top: 36px;
     font-size: 1.8rem;
+    align-self: flex-start;
 }
 /*END HEADER*/
 

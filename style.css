@@ -160,6 +160,7 @@ background-color: red;
 }
 .header--title-container a {
     position: relative;
+    align-self: center;
     width: 100%;
     height: 48px;
     max-width: 288px;
